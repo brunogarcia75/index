@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PartesPro - Soluções para Mineração</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PartesPro</div>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Soluções de Perfuração para Mineração</h1>
+        <p>Distribuidor exclusivo da Terelion e líder no fornecimento de equipamentos de perfuração.</p>
+        <a href="#produtos" class="btn">Conheça Nossos Produtos</a>
+    </section>
+
+    <section id="produtos" class="products">
+        <h2>Nossos Produtos</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="brocas.jpg" alt="Brocas Terelion">
+                <h3>Brocas Terelion</h3>
+                <p>Alta performance e durabilidade para mineração.</p>
+            </div>
+            <div class="product">
+                <img src="martelos.jpg" alt="Martelos DTH">
+                <h3>Martelos DTH</h3>
+                <p>Eficiência e resistência para perfuração profunda.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="services">
+        <h2>Nossos Serviços</h2>
+        <p>Oferecemos suporte técnico especializado e consultoria para otimizar sua operação.</p>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>Sobre a PartesPro</h2>
+        <p>Com mais de 10 anos no mercado, fornecemos soluções inovadoras para mineração e perfuração.</p>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Entre em Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <textarea placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PartesPro - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
